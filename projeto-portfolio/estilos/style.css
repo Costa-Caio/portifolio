@@ -42,6 +42,9 @@ header {
   display: flex;
   padding: 10px;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav#menu ul {
@@ -142,7 +145,7 @@ article h2 {
   position: relative;
   width: 100%;
   margin: auto;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/9; 
 }
 
 .video-conteiner iframe {
